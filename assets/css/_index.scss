@@ -1,0 +1,51 @@
+
+.page-header {
+  text-align: center;
+  margin-top: 20px;
+
+  color: #1A2539;	
+  font-size: 36px;	
+  font-weight: bold;	
+  letter-spacing: -1.06px;	
+  line-height: 44px;	
+  text-align: center;
+
+  &:after {
+    content: "";
+    border-bottom: 3px solid #e0562e;
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+  }
+}
+
+
+.cards {
+  padding-top: 40px;
+}
+
+.not-found {
+  text-align: center;
+  img { 
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding: 0 15%;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    font-weight: 700;
+    color: #5A5D5F;
+    font-size: 20px;
+  }
+
+  p {
+    font-weight: 200;
+    font-size: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}
+

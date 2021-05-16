@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Buffalo - Toolkit</title>
+    <%= stylesheetTag("application.css") %>
+    <meta name="csrf-param" content="authenticity_token" />
+    <meta name="csrf-token" content="<%= authenticity_token %>" />
+    <link rel="icon" href="<%= assetPath("images/favicon.ico") %>">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div id="wrapper">
+      
+      <%= partial("nav") %>
+      <%= contentOf("indicator-bar") %>
+
+      <div id="main">
+        <%= yield %>
+      </div>
+    </div>
+
+    <%= partial("footer.plush.html") %>
+    <%= javascriptTag("application.js") %>
+  </body>
+</html>

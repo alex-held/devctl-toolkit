@@ -1,0 +1,42 @@
+html {
+  position: relative;
+  min-height: 100%; 
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-top: 70px;
+  background-color: #F3F5F7;
+}
+
+
+#wrapper {
+  min-height: calc(100vh - 169px);
+}
+
+.back-link {
+  font-size: 13px;	
+  font-weight: 500;
+  color: black;
+
+  i {
+    color: #BDD4EA;
+  }
+}
+
+.t-bold {
+  font-weight: 700;
+}
+
+.t-light {
+  font-weight: 300;
+}
+
+
+.container {
+  min-width: 336px;
+}
