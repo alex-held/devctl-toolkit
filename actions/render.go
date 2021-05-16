@@ -8,7 +8,8 @@ import (
 	"github.com/gobuffalo/buffalo/render"
 	"github.com/gobuffalo/packr/v2"
 	"github.com/gobuffalo/tags"
-	"github.com/gobuffalo/toolkit/models/discovery"
+
+	"github.com/alex-held/devctl-toolkit/models/discovery"
 )
 
 var r *render.Engine

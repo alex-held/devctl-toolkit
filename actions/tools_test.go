@@ -2,8 +2,9 @@ package actions
 
 import (
 	"github.com/gobuffalo/nulls"
-	"github.com/gobuffalo/toolkit/models"
 	"github.com/markbates/going/randx"
+
+	"github.com/alex-held/devctl-toolkit/models"
 )
 
 func (as *ActionSuite) BuildTool() *models.Tool {

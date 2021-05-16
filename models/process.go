@@ -4,8 +4,9 @@ import (
 	"github.com/gobuffalo/nulls"
 	"github.com/gobuffalo/pop"
 	"github.com/gobuffalo/pop/slices"
-	"github.com/gobuffalo/toolkit/models/discovery"
 	"github.com/pkg/errors"
+
+	"github.com/alex-held/devctl-toolkit/models/discovery"
 )
 
 func ProcessProjects(projects []discovery.Project) error {

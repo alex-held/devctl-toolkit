@@ -2,7 +2,7 @@ package actions
 
 import (
 	"github.com/gobuffalo/buffalo"
-	popmw "github.com/gobuffalo/buffalo-pop/pop/popmw"
+	"github.com/gobuffalo/buffalo-pop/pop/popmw"
 	"github.com/gobuffalo/envy"
 	csrf "github.com/gobuffalo/mw-csrf"
 	forcessl "github.com/gobuffalo/mw-forcessl"
@@ -11,8 +11,8 @@ import (
 	"github.com/gobuffalo/packr/v2"
 	"github.com/unrolled/secure"
 
-	"github.com/gobuffalo/toolkit/models"
-	"github.com/gobuffalo/toolkit/models/discovery"
+	"github.com/alex-held/devctl-toolkit/models"
+	"github.com/alex-held/devctl-toolkit/models/discovery"
 
 	"time"
 )

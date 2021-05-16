@@ -2,6 +2,7 @@ package discovery
 
 const (
 	PLUGIN     = "plugin"
+	SDK        = "sdk"
 	GENERATOR  = "generator"
 	MIDDLEWARE = "middleware"
 	POP        = "pop"
@@ -13,6 +14,7 @@ const (
 	TESTING    = "testing"
 	WORKER     = "worker"
 	OTHER      = "other"
+
 )
 
 var KnownTags = []struct {
@@ -20,6 +22,7 @@ var KnownTags = []struct {
 	Description string
 }{
 	{PLUGIN, "Plugins"},
+	{SDK, "Sdks"},
 	{GENERATOR, "Generators"},
 	{MIDDLEWARE, "Middleware"},
 	{POP, "Pop/Soda"},

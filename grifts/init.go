@@ -2,7 +2,8 @@ package grifts
 
 import (
 	"github.com/gobuffalo/buffalo"
-	"github.com/gobuffalo/toolkit/actions"
+
+	"github.com/alex-held/devctl-toolkit/actions"
 )
 
 func init() {

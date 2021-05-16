@@ -3,10 +3,11 @@ package github
 import (
 	"context"
 
-	"github.com/gobuffalo/toolkit/models/discovery"
 	"github.com/pkg/errors"
 	"github.com/shurcooL/githubv4"
 	"golang.org/x/oauth2"
+
+	"github.com/alex-held/devctl-toolkit/models/discovery"
 )
 
 var _ discovery.Service = &Github{}
@@ -23,7 +24,7 @@ func (g Github) Search(ctx context.Context, topics ...string) ([]discovery.Proje
 	repos := []discovery.Project{}
 
 	var q struct {
-		Search search `graphql:"search(type: REPOSITORY, query: \"topic:gobuffalo\", first: 100, after: $repositoryCursor)"`
+		Search search `graphql:"search(type: REPOSITORY, query: \"topic:devctl\", first: 100, after: $repositoryCursor)"`
 	}
 	variables := map[string]interface{}{
 		"repositoryCursor": (*githubv4.String)(nil), // Null after argument to get first page.

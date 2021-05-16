@@ -24,6 +24,6 @@ On GitHub you can use the "Topics" feature of your repository to tag your projec
 
 # Contributing
 
-Source for this project can be found at [https://github.com/gobuffalo/toolkit](https://github.com/gobuffalo/toolkit).
+Source for this project can be found at [https://github.com/alex-held/devctl-toolkit](https://github.com/alex-held/devctl-toolkit).
 
 [Powered by Buffalo](http://gobuffalo.io)

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	"github.com/gobuffalo/toolkit/actions"
+	"github.com/alex-held/devctl-toolkit/actions"
 )
 
 // main is the starting point to your Buffalo application.

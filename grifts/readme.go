@@ -6,9 +6,10 @@ import (
 	"path/filepath"
 
 	"github.com/gobuffalo/plush"
-	"github.com/gobuffalo/toolkit/actions"
 	. "github.com/markbates/grift/grift"
 	"github.com/pkg/errors"
+
+	"github.com/alex-held/devctl-toolkit/actions"
 )
 
 var _ = Namespace("generate", func() {

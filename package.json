@@ -1,9 +1,9 @@
 {
-  "name": "gobuffalo-toolkit",
+  "name": "devctl-toolkit",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": "github.com/gobuffalo/toolkit",
+  "repository": "github.com/alex-held/devctl-toolkit",
   "scripts": {
     "build": "webpack -p --progress",
     "dev": "webpack --watch"
